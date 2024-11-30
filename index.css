@@ -1,0 +1,31 @@
+.Color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom : 30px ;
+  transition: 0.25s ease;
+}
+
+.Color-display p{
+  font-size: 2rem;
+  text-align: center;
+}
+
+label{
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+input{
+  border-radius : 5px;
+}
